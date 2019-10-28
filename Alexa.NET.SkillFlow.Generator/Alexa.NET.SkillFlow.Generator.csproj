@@ -3,14 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Steven Pears</Authors>
-    <Company>teven Pears</Company>
+    <Company>Steven Pears</Company>
     <Description>A small library that enables output based on SkillFlow models</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/stoiveyp/Alexa.NET.SkillFlow.Generator</PackageProjectUrl>
     <RepositoryUrl>https://github.com/stoiveyp/Alexa.NET.SkillFlow.Generator</RepositoryUrl>
     <PackageTags>Alexa, SkillFlow</PackageTags>
-    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageReleaseNotes>Correct access on generate methods</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

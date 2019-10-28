@@ -40,7 +40,7 @@ namespace Alexa.NET.SkillFlow.Generator
 
             await End(story, context);
         }
-        public async Task Generate(SceneInstructions instructions, TContext context)
+        protected async Task Generate(SceneInstructions instructions, TContext context)
         {
             if (instructions == null)
             {
@@ -64,7 +64,7 @@ namespace Alexa.NET.SkillFlow.Generator
             }
             await End(instructions, context);
         }
-        public async Task Generate(SceneInstructionContainer instructions, TContext context)
+        protected async Task Generate(SceneInstructionContainer instructions, TContext context)
         {
             if (instructions == null)
             {
